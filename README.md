@@ -3,7 +3,12 @@ A WebSocket server is nothing more than an application listening on any port of 
 Creating a custom server can seem overwhelming if you have never done it before. It can actually be quite straightforward to implement a
 basic WebSocket server on your platform of choice.
 --------------------------------------------------------------------------
-Just use dotnet run command to run the Server Project and then same command to run the Client Project.
+Just use 
+
+dotnet run command to run the Server Project
+
+
+and then same command to run the Client Project.
 --------------------------------------------------------------------------
 The WebSocket protocol is an independent TCP-based protocol. Its only relationship to HTTP is that its
 handshake is interpreted by HTTP servers as an Upgrade request. The WebSocket protocol makes possible more interaction 
